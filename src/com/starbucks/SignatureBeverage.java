@@ -40,11 +40,6 @@ public class SignatureBeverage extends StarbucksMini {
 
 
 
-		public int getCost() {
-			return cost;
-		}
-
-
 
 
 		public void setCost(int cost) {
