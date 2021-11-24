@@ -32,6 +32,11 @@ public class StarbucksMini {
         
             return price;
     }
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+    
     
 
 }
