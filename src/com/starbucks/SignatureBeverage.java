@@ -15,11 +15,46 @@ public class SignatureBeverage extends StarbucksMini {
 	        
 	        // initializing the derived class variable cost to 
 	        this.cost = price;
-	    }
+	    }  
 	    
-	    
-	    
-	    @Override
+	    public StarbucksMini getSignatureSize() {
+			return SignatureSize;
+		}
+
+		public void setSignatureSize(StarbucksMini signatureSize) {
+			SignatureSize = signatureSize;
+		}
+
+
+		public String getName() {
+			return name;
+		}
+
+
+
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+
+
+
+		public int getCost() {
+			return cost;
+		}
+
+
+
+
+		public void setCost(int cost) {
+			this.cost = cost;
+		}
+
+
+
+
+		@Override
 	    public int getPrice()throws Exception {
 	        /** Signature beverage calls its own method getPrice()
 	         * to get the price of same type of coffee StarbucksMini but different size*
