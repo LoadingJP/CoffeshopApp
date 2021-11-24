@@ -135,6 +135,9 @@ public class EverestCoffee {
     	System.out.println("****** Pick Your Own Favorite Size ******");
     	System.out.println("*****************************************");
     	System.out.println("*****************************************");
+    	System.out.println("*****************************************");
+    	System.out.println("*****************************************");
+    	System.out.println("*****************************************");
 
     	System.out.println("Relish your favourite type of coffee");
     	System.out.println("1.Cappuccinnos 	Available Size: Tall, Grande, Venti");
